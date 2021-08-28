@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	color: #102d33;
+}
+
+h1, h2 {
+	font-family: 'Bree Serif', cursive;
+    padding: 2%;
+	color: #102d33;
+}
+
+h1 {
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	color: white;
+	font-size: .9em;
+}
+
+p {
+  font-size: 1em;
+  margin-left: 2%;;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 1%;
+    background-color: rgb(181, 216, 238);
+    color: black;
+}
+
+footer {
+  background: #cb8699;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 1%;
+  position: fixed;
+  bottom: 0;
+}
